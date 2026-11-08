@@ -1,0 +1,67 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:047e51ca-80a2-5d2c-be39-bbe3a30c59d3",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:35:57Z",
+    "component": {
+      "type": "application",
+      "name": "K_PYPREP",
+      "version": "dc018ad5b7d5",
+      "bom-ref": "pkg:generic/anticloud/K_PYPREP@dc018ad5b7d5",
+      "purl": "pkg:generic/anticloud/K_PYPREP@dc018ad5b7d5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "dc018ad5b7d5c37740a58914e269f8996ec6eb6e"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/sappelhoff/pyprep"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "mne",
+      "version": ">=1.13.0",
+      "purl": "pkg:pypi/mne@1.13.0",
+      "bom-ref": "pypi/mne@>=1.13.0"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": ">=1.20.2",
+      "purl": "pkg:pypi/numpy@1.20.2",
+      "bom-ref": "pypi/numpy@>=1.20.2"
+    },
+    {
+      "type": "library",
+      "name": "psutil",
+      "version": ">=5.4.3",
+      "purl": "pkg:pypi/psutil@5.4.3",
+      "bom-ref": "pypi/psutil@>=5.4.3"
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": ">=1.6.3",
+      "purl": "pkg:pypi/scipy@1.6.3",
+      "bom-ref": "pypi/scipy@>=1.6.3"
+    }
+  ]
+}
